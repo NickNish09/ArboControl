@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_inbox_black_24dp"
+            android:title="Mensagens" />
+        <item
+            android:id="@+id/nav_file"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"
+            android:title="Plano de Ação" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Referências" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Insumos e Equipamentos" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="Questionários" />
+    </group>
+
+</menu>
